@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+:root {
+  --midnight: #00142f;
+  --coral: #ff533d;
+  --leather: #ab987a;
+  --success: #22b76f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: var(--midnight);
+  font-family: 'Raleway', helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
